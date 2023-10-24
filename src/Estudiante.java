@@ -7,7 +7,7 @@ public class Estudiante {
     private String materia2;
     private String materia3;
 
-    // Constructor
+  
     public Estudiante(String cedula, String nombre, int codigo, String materia1, String materia2, String materia3) {
         this.cedula = cedula;
         this.nombre = nombre;
@@ -17,7 +17,7 @@ public class Estudiante {
         this.materia3 = materia3;
     }
 
-    // Getters
+
     public String getCedula() {
         return cedula;
     }
